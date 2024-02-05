@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<h1>Twilio and Google Calendar Integration for WhatsApp</h1>
+<h1>Twilio, Google Cloud (GCP) and Google Calendar API Integration for WhatsApp</h1>
 
 <p>This project demonstrates the integration of Twilio and Google Calendar for managing events through WhatsApp messages. Users can interact with their Google Calendar by sending WhatsApp messages to a Twilio phone number.</p>
 
@@ -82,7 +82,7 @@ cd your-project
   <li>Copy the Google Calendar API credentials JSON file and the service account JSON key file to the project directory.</li>
 </ol>
 
-<h2>Running the Application</h2>
+<h2>Running the Application Locally (optional)</h2>
 
 <ol>
   <li>Run the Flask web application:</li>
@@ -122,5 +122,11 @@ cd your-project
 <ul>
   <li>If you encounter issues with Google Cloud Storage permissions, ensure that the service account has the necessary roles (e.g., Storage Object Admin) on the storage bucket.</li>
   <li>Check the Twilio WhatsApp logs for any errors related to webhook requests.</li>
+</ul>
+
+<h2>References and tutorials</h2>
+<ul>
+  <li>Quickstart calendar API: <a href="https://developers.google.com/calendar/api/quickstart/python">Google quickstart</a>.</li>
+  <li>Get URL for deployed app: <a href="https://cloud.google.com/appengine/docs/standard/python/getting-started/hosting-a-static-website">Tutorial</a>.</li>  
 </ul>
 </html>
